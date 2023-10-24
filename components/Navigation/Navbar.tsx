@@ -1,0 +1,66 @@
+import Image from "next/image";
+import Link from "next/link";
+import Drawer from "./Drawer";
+const Links = [
+  {
+    name: "About",
+    link: "#About",
+  },
+  {
+    name: "Services",
+    link: "#Services",
+  },
+  {
+    name: "Case Studies",
+    link: "#case",
+  },
+  {
+    name: "Blogs",
+    link: "#blog",
+  },
+  {
+    name: "How it Works",
+    link: "#working",
+  },
+  {
+    name: "Hire",
+    link: "#hire",
+  },
+];
+const Navbar = () => {
+  return (
+    <nav className="w-full md:bg-none z-50 fixed h-20 flex justify-between px-5 items-center ">
+      <Link href={"#home"} className="flex justify-center items-center">
+        <Image
+          src={"/logo.png"}
+          alt=""
+          width={100}
+          height={100}
+          className="md:w-12 w-10"
+        />
+        <h1>LedgerChirp</h1>
+      </Link>
+      <div className="lg:flex font-light justify-center items-center space-x-10 hidden">
+        {Links &&
+          Links.map((value, id) => {
+            return (
+              <div key={id}>
+                <Link href={value.link} className="hover:text-blue-400">
+                  {value.name}
+                  <div className="rounded-full w-1 h-1 hover:visible mx-auto hidden bg-white" />
+                </Link>
+              </div>
+            );
+          })}
+      </div>
+      <button className="bg-gradient-to-tr from-[#6675F7] to-[#57007B] lg:flex hidden px-3 py-2 rounded-lg drop-shadow-sm">
+        <Link href={"#contact"}>Contact Us</Link>
+      </button>
+      <div className="lg:hidden flex">
+        <Drawer />
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
