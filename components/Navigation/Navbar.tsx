@@ -44,10 +44,10 @@ const Navbar = () => {
         {Links &&
           Links.map((value, id) => {
             return (
-              <div key={id}>
-                <Link href={value.link} className="hover:text-blue-400">
+              <div key={id} className="group">
+                <Link href={value.link} className="hover:text-cyan-400">
                   {value.name}
-                  <div className="rounded-full w-1 h-1 hover:visible mx-auto hidden bg-white" />
+                  <div className="rounded-full w-1 h-1 group-hover:visible invisible  mx-auto bg-white" />
                 </Link>
               </div>
             );
