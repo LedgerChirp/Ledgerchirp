@@ -18,8 +18,12 @@ const Card = ({ image, title, description, color1, color2 }: Props) => {
         height={1000}
       />
       <div className="flex flex-col space-y-3">
-        <h1 className="font-[Inter] md:text-lg font-semibold mx-auto text-center md:text-left md:mx-0">{title}</h1>
-        <p className="font-[Inter] md:text-sm text-xs font-light">{description}</p>
+        <h1 className="font-[Inter] md:text-lg font-semibold mx-auto text-center md:text-left md:mx-0">
+          {title}
+        </h1>
+        <p className="font-[Inter] md:text-sm text-xs font-light">
+          {description}
+        </p>
       </div>
     </div>
   );

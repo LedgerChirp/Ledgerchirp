@@ -4,7 +4,7 @@ const Hire = () => {
   return (
     <div
       id="hire"
-      className="w-[80%] relative md:h-[50%] mx-auto bg-gradient-to-tl md:p-20 from-black to-gray-800 md:flex justify-between items-center rounded-2xl"
+      className="w-[80%] relative md:h-[50%] md:my-40 my-20 mx-auto bg-gradient-to-tl md:p-20 from-black to-gray-800 md:flex justify-between items-center rounded-2xl"
     >
       <h1 className="text-[#FAFAFA] text-center md:text-3xl font-bold py-10">
         Hire the best Developers and Designers around!
