@@ -6,6 +6,7 @@ import About from "@/components/About/About";
 import CaseStudy from "@/components/Case-Study/Case-Study";
 import Approach from "@/components/Approach/Approach";
 import Footer from "@/components/Footer/Footer";
+import TechStack from "@/components/Tech-Stack/TechStack";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <CaseStudy />
       <Approach />
+      <TechStack />
       <Hire />
       <Footer />
     </main>
