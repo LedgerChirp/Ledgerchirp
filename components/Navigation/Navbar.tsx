@@ -30,7 +30,7 @@ const Links = [
 const Navbar = () => {
   return (
     <nav className="w-full md:bg-none z-50 fixed h-20 flex justify-between px-5 items-center ">
-      <Link href={"#home"} className="flex justify-center items-center">
+      <Link href={"/"} className="flex justify-center items-center">
         <Image
           src={"/logo.png"}
           alt=""
@@ -47,7 +47,7 @@ const Navbar = () => {
               <div key={id} className="group">
                 <Link href={value.link} className="hover:text-cyan-400">
                   {value.name}
-                  <div className="rounded-full w-1 h-1 group-hover:visible invisible  mx-auto bg-white" />
+                  <div className="rounded-full w-1 h-1 group-hover:visible invisible  mx-auto bg-cyan-400" />
                 </Link>
               </div>
             );

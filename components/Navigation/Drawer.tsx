@@ -47,7 +47,7 @@ const Drawer = () => {
       </div>
       <div className="font-light justify-center items-center">
         {open && (
-          <div className="absolute top-0 right-0 w-fit px-10 flex flex-col duration-500 ease-in-out h-screen bg-gradient-to-tr from-transparent to-black ">
+          <div className="absolute top-0 right-0 w-fit px-10 flex flex-col duration-500 ease-in-out h-screen bg-gradient-to-tr from-gray-700 to-black ">
             <button onClick={handleClick} className="text-white self-end py-4">
               X
             </button>
@@ -55,7 +55,7 @@ const Drawer = () => {
               Links.map((value, id) => {
                 return (
                   <div key={id} className="my-5">
-                    <Link href={value.link} className="text-white">
+                    <Link href={value.link} className="text-white" onClick={handleClick}>
                       {value.name}
                     </Link>
                   </div>

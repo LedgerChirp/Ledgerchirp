@@ -3,6 +3,7 @@ import Landing from "@/components/Hero/Landing";
 import Image from "next/image";
 import Hire from "@/components/Hire/Hire";
 import About from "@/components/About/About";
+import CaseStudy from "@/components/Case-Study/Case-Study";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Landing />
       {/* <Hire /> */}
       <About />
+      <CaseStudy />
     </main>
   );
 }

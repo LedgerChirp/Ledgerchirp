@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const About = () => {
   return (
-    <div className="">
+    <div id="About" className="">
       <Image
         src={"/ellipse.svg"}
         width={100}
@@ -40,7 +40,12 @@ const About = () => {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <video width="640" height="360" controls className="rounded-xl w-full h-full" />
+          <video
+            width="640"
+            height="360"
+            controls
+            className="rounded-xl w-full h-full"
+          />
           <source src="" type="video/mp4" />
         </div>
       </div>
