@@ -7,7 +7,7 @@ const Landing = () => {
       className="md:h-screen z-0 py-20 lg:py-0 grid md:grid-cols-2 lg:gap-16 grid-cols-1 w-[80%] items-center mx-auto"
     >
       <div className=" space-y-12 flex justify-center items-center md:items-start flex-col">
-        <h1 className="md:text-6xl text-3xl md:leading-snug text-center  md:text-left">
+        <h1 className="md:text-6xl text-3xl md:leading-tight text-center  md:text-left">
           <span className="font-extralight">
             Great{" "}
             <span className="bg-gradient-to-b text-transparent bg-clip-text from-[#DE4396] to-blue-200 font-bold">
