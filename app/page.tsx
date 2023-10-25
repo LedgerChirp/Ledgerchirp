@@ -4,15 +4,17 @@ import Image from "next/image";
 import Hire from "@/components/Hire/Hire";
 import About from "@/components/About/About";
 import CaseStudy from "@/components/Case-Study/Case-Study";
+import Approach from "@/components/Approach/Approach";
 
 export default function Home() {
   return (
     <main className="bg-gradient-to-br w-full h-full from-black to-gray-900">
       <Navbar />
       <Landing />
-      {/* <Hire /> */}
+      <Hire />
       <About />
       <CaseStudy />
+      <Approach />
     </main>
   );
 }

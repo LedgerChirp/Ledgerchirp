@@ -29,7 +29,7 @@ const Links = [
 ];
 const Navbar = () => {
   return (
-    <nav className="w-full md:bg-none z-50 fixed h-20 flex justify-between px-5 items-center ">
+    <nav className="w-full backdrop-blur-xl z-50 fixed h-20 flex justify-between px-5 items-center ">
       <Link href={"/"} className="flex justify-center items-center">
         <Image
           src={"/logo.png"}
