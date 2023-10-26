@@ -14,7 +14,7 @@ const Card = ({ image, title, description, color1, color2 }: Props) => {
         src={image}
         alt=""
         width={1000}
-        className={`w-12 h-12 bg-gradient-to-tr from-[#FFEF5E] to-[#F7936F] rounded-lg p-2 mx-auto md:mx-0 `}
+        className={`w-12 h-12 bg-gradient-to-tr from-[#29272E] to-[#27272E] rounded-lg p-2 mx-auto md:mx-0 `}
         height={1000}
       />
       <div className="flex flex-col space-y-3">

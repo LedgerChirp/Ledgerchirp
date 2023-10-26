@@ -55,3 +55,51 @@ body {
   background-color: #ccc;
   border-radius: 5px;
 }
+/* carousel */
+/* .caro {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: -10;
+}
+
+.caro .carousel {
+  display: inline-block;
+  align-items: flex-start;
+  padding-top: 60px;
+  animation: 20s slide infinite linear;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+} */
+.marquee-container {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  align-items: start;
+  position: relative; 
+  
+}
+.marquee-content {
+  animation: marquee 60s linear infinite;
+  display: block; /* Added to make sure content stays in a row */
+}
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

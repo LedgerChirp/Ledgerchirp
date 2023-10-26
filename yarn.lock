@@ -192,6 +192,11 @@
   dependencies:
     tslib "^2.4.0"
 
+"@trendyol-js/react-carousel@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@trendyol-js/react-carousel/-/react-carousel-3.0.2.tgz#2b64f8edd69b2dfbba79d0ecceec7b3949ed86f4"
+  integrity sha512-V/Z7N2CXEBCNWwJfOGeE9MNfAvWj/eK/KIwoautb8mp/g9pc4ZHCIuRkmH4viUxJiv8f+WTCuPR2HBzZv8+p1w==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
@@ -1960,10 +1965,20 @@ react-dom@^18:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-fast-marquee@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/react-fast-marquee/-/react-fast-marquee-1.6.2.tgz#86d4d86af4e9624129d852921dde1dce1a4f1604"
+  integrity sha512-bXUuW1r+Yzd8ZjsPmMDy8WJMubHAZd/7n0W/IzUQHtd0iBfxWohP6hzCFnEHWMCOtC9wxSAq/BiEnig4kdI2Vw==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-sliderify@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/react-sliderify/-/react-sliderify-1.1.3.tgz#856884fd582741d24f1edf432e1a720cce474f1f"
+  integrity sha512-NpPSnSGGGlrxjZ5gGO7gUIq+lDyyYfLoiZ4hN6Lh0ZfVbGQFm2tjGSOAZdSPkqEqWfNlPNucjTof5ZLaNPCIZg==
 
 react@^18:
   version "18.2.0"

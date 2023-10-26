@@ -9,7 +9,7 @@ const data = [
     description:
       "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
     color1: "#29272E",
-    color2: "#29272E",
+    color2: "#27272E",
   },
   {
     image: "/code.png",
@@ -55,7 +55,7 @@ const data = [
 
 const Approach = () => {
   return (
-    <div className="flex flex-col my-10 p-10 bg-gradient-to-t from-slate-700 to-gray-700">
+    <div className="flex flex-col my-10 p-10 bg-gradient-to-t from-slate-800 to-gray-900">
       <div className="flex flex-col mb-20 justify-center items-center">
         <Image
           src={"/deco-line.svg"}

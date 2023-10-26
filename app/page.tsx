@@ -7,16 +7,18 @@ import CaseStudy from "@/components/Case-Study/Case-Study";
 import Approach from "@/components/Approach/Approach";
 import Footer from "@/components/Footer/Footer";
 import TechStack from "@/components/Tech-Stack/TechStack";
+import Resources from "@/components/Resources/Resources";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-br w-full h-full from-black to-gray-900 font-[Inter]">
+    <main className="bg-gradient-to-br w-full h-full select-none from-black to-gray-900 font-[Inter]">
       <Navbar />
       <Landing />
       <About />
       <CaseStudy />
       <Approach />
       <TechStack />
+      <Resources />
       <Hire />
       <Footer />
     </main>

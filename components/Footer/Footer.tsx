@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col justify-center md:space-x-8 space-y-10 md:items-start md:justify-start w-[90vw] mx-auto md:flex-row">
+      <div className="flex flex-col justify-center items-center md:space-x-8 space-y-10 md:items-start md:justify-start w-[90vw] mx-auto md:flex-row">
         <div className="flex flex-col space-y-5">
           <div className="flex justify-start items-center">
             <Image
@@ -35,51 +35,53 @@ const Footer = () => {
             <li>Areas we Serve</li>
           </ul>
         </div>
-        <div className="">
-          <h1 className="font-semibold">Contact Us</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, illum?
-          </p>
-          <p>+91 88151 69093</p>
-        </div>
-        <div className="flex space-x-5 md:h-48">
-          <Link
-            href={"/"}
-            className="md:w-12 md:h-12 w-10 h-10 flex justify-center items-center rounded-full bg-gradient-to-tr from-slate-700 to-slate-900 shadow-lg"
-          >
-            <Image
-              src={"/instagram.svg"}
-              width={100}
-              height={100}
-              className="w-5 h-5"
-              alt="insta"
-            />
-          </Link>
-          <Link
-            href={"/"}
-            className="md:w-12 md:h-12 w-10 h-10 flex justify-center items-center rounded-full bg-gradient-to-tr from-slate-700 to-slate-900 shadow-lg"
-          >
-            <Image
-              src={"/twitter.svg"}
-              width={100}
-              height={100}
-              className="w-5 h-5"
-              alt="insta"
-            />
-          </Link>
-          <Link
-            href={"/"}
-            className="md:w-12 md:h-12 w-10 h-10 flex justify-center items-center rounded-full bg-gradient-to-tr from-slate-700 to-slate-900 shadow-lg"
-          >
-            <Image
-              src={"/linkedin.svg"}
-              width={100}
-              height={100}
-              className="w-5 h-5"
-              alt="insta"
-            />
-          </Link>
-          {/* <Link href={"/"}>
+        <div className="flex flex-col justify-center h-full space-y-20">
+          <div>
+            <h1 className="font-semibold">Contact Us</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab,
+              illum?
+            </p>
+            <p>+91 88151 69093</p>
+          </div>
+          <div className="flex space-x-5 ">
+            <Link
+              href={"/"}
+              className="md:w-12 md:h-12 w-10 h-10 flex justify-center items-center rounded-full bg-gradient-to-tr from-slate-700 to-slate-900 shadow-lg"
+            >
+              <Image
+                src={"/instagram.svg"}
+                width={100}
+                height={100}
+                className="w-5 h-5"
+                alt="insta"
+              />
+            </Link>
+            <Link
+              href={"/"}
+              className="md:w-12 md:h-12 w-10 h-10 flex justify-center items-center rounded-full bg-gradient-to-tr from-slate-700 to-slate-900 shadow-lg"
+            >
+              <Image
+                src={"/twitter.svg"}
+                width={100}
+                height={100}
+                className="w-5 h-5"
+                alt="insta"
+              />
+            </Link>
+            <Link
+              href={"/"}
+              className="md:w-12 md:h-12 w-10 h-10 flex justify-center items-center rounded-full bg-gradient-to-tr from-slate-700 to-slate-900 shadow-lg"
+            >
+              <Image
+                src={"/linkedin.svg"}
+                width={100}
+                height={100}
+                className="w-5 h-5"
+                alt="insta"
+              />
+            </Link>
+            {/* <Link href={"/"}>
           <Image
             src={"/instagram.svg"}
             width={100}
@@ -88,6 +90,7 @@ const Footer = () => {
             alt="insta"
           />
         </Link> */}
+          </div>
         </div>
       </div>
       <div className="border-t border-[#CBD5E0] flex items-center justify-center p-2 mt-5 text-center text-gray-500">
