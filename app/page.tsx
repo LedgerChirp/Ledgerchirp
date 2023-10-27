@@ -9,6 +9,7 @@ import Footer from "@/components/Footer/Footer";
 import TechStack from "@/components/Tech-Stack/TechStack";
 import Resources from "@/components/Resources/Resources";
 import Services from "@/components/Services/Services";
+import Description from "@/components/Description/Description";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <About />
       <CaseStudy />
+      <Description />
       <Approach />
       <TechStack />
       <Resources />
