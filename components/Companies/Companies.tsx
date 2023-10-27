@@ -40,7 +40,7 @@ const Companies = () => {
         className="absolute md:top-36 left-2/3 z-0 top-44"
         alt=""
       />
-      <div className="w-full relative z-10 h-fit bg-gradient-to-t from-slate-800 py-10 to-gray-950">
+      <div className="w-full relative z-10 h-fit bg-gradient-to-t from-slate-900 md:py-10 py-4 to-gray-950">
         <Marquee className="">
           {CompaniesLogo &&
             CompaniesLogo.map((value, id) => {
@@ -54,7 +54,7 @@ const Companies = () => {
                     width={100}
                     height={100}
                     alt="company-logo"
-                    className="w-20 h-20"
+                    className="md:w-20 md:h-20 w-10 h-10"
                   />
                 </div>
               );
