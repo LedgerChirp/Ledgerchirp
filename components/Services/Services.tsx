@@ -55,7 +55,7 @@ const Services = () => {
   return (
     <div className="relative w-full flex flex-col justify-evenly md:py-10 py-6 items-center bg-[#03001C] h-screen z-10">
       <h1 className="font-semibold md:text-5xl text-3xl">Services we offer</h1>
-      <div className="w-screen md:flex hidden">
+      <div className=" md:flex hidden overflow-hidden w-[99vw]">
         <Swiper
           slidesPerView={3.75}
           autoplay={{
@@ -73,7 +73,7 @@ const Services = () => {
           loop={true}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper md:h-fit "
+          className="mySwiper md:h-fit overflow-hidden"
         >
           {slideData &&
             slideData.map((value, index) => {
@@ -100,7 +100,7 @@ const Services = () => {
             })}
         </Swiper>
       </div>
-      <div className="w-[90%] md:hidden flex">
+      <div className="w-[90%] md:hidden flex overflow-hidden">
         <Swiper
           slidesPerView={1}
           autoplay={{
@@ -118,7 +118,7 @@ const Services = () => {
           loop={true}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper md:h-fit "
+          className="mySwiper md:h-fit overflow-hidden"
         >
           {slideData &&
             slideData.map((value, index) => {
