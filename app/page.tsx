@@ -10,6 +10,8 @@ import TechStack from "@/components/Tech-Stack/TechStack";
 import Resources from "@/components/Resources/Resources";
 import Services from "@/components/Services/Services";
 import Description from "@/components/Description/Description";
+import Timeline from "@/components/Timeline/Timeline";
+import Companies from "@/components/Companies/Companies";
 
 export default function Home() {
   return (
@@ -18,10 +20,12 @@ export default function Home() {
       <Landing />
       <Services />
       <About />
+      <Companies />
       <CaseStudy />
       <Description />
       <Approach />
       <TechStack />
+      <Timeline />
       <Resources />
       <Hire />
       <Footer />
