@@ -67,7 +67,7 @@ const Resources = () => {
           alt="line"
         />
         <h1 className="text-center font-extralight drop-shadow-xl md:text-5xl text-3xl leading-normal">
-          Featured <span className="block font-semibold">Resouces</span>
+          Featured <span className="block font-semibold">Resources</span>
         </h1>
       </div>
       <div className="overflow-x-hidden block items-start space-x-10 w-[90%] mx-auto">

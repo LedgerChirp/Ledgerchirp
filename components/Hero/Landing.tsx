@@ -4,9 +4,9 @@ const Landing = () => {
   return (
     <div
       id="home"
-      className="md:h-screen z-0 py-20 lg:py-0 grid md:grid-cols-2 lg:gap-16 grid-cols-1 w-[80%] items-center mx-auto"
+      className="md:h-screen h-fit z-0 py-20 lg:py-0 grid md:grid-cols-2 lg:gap-16 grid-cols-1 w-[80%] items-center mx-auto"
     >
-      <div className=" space-y-12 flex justify-center items-center md:items-start flex-col">
+      <div className=" space-y-12 flex justify-center items-center md:items-start flex-col md:mt-0 mt-16">
         <h1 className="md:text-6xl text-3xl md:leading-tight text-center  md:text-left">
           <span className="font-extralight">
             Great{" "}
@@ -34,7 +34,7 @@ const Landing = () => {
           src={"/ellipse.svg"}
           width={100}
           height={100}
-          className="md:w-16 md:h-16 w-8 h-8 absolute -bottom-5 left-1/3 "
+          className="md:w-16 md:h-16 w-8 h-8 absolute -bottom-40 md:-bottom-10 left-1/3 -z-0 "
           alt="ellipse"
         />
       </div>

@@ -85,8 +85,7 @@ body {
   width: 100%;
   display: block;
   align-items: start;
-  position: relative; 
-  
+  position: relative;
 }
 .marquee-content {
   animation: marquee 60s linear infinite;
@@ -102,4 +101,21 @@ body {
   to {
     transform: translateX(-100%);
   }
+}
+
+.pagination {
+  --swiper-pagination-color: #fff;
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: 8px;
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-top: auto;
+  --swiper-pagination-fraction-color: inherit;
+  --swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.25);
+  --swiper-pagination-progressbar-size: 4px;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
 }

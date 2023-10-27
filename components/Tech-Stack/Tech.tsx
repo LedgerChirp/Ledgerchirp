@@ -176,6 +176,7 @@ const TechStacks = () => {
             {currentStack === "Frontend" && (
               <div className="h-fit grid md:grid-cols-4 grid-cols-3 gap-10 place-items-center justify-center items-center w-[70%] my-10">
                 <Image
+                  loading="lazy"
                   src={"/html.svg"}
                   width={100}
                   height={100}
@@ -183,6 +184,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/css.svg"}
                   width={100}
                   height={100}
@@ -190,6 +192,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/javascript.svg"}
                   width={100}
                   height={100}
@@ -197,6 +200,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/typescript.svg"}
                   width={100}
                   height={100}
@@ -204,6 +208,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/jquery.svg"}
                   width={100}
                   height={100}
@@ -211,6 +216,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/astro.svg"}
                   width={100}
                   height={100}
@@ -218,6 +224,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/react.svg"}
                   width={100}
                   height={100}
@@ -225,6 +232,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/redux.svg"}
                   width={1000}
                   height={1000}
@@ -232,6 +240,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/next.svg"}
                   width={100}
                   height={100}
@@ -239,6 +248,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/vite.svg"}
                   width={100}
                   height={100}
@@ -246,6 +256,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/gatsby.svg"}
                   width={100}
                   height={100}
@@ -253,6 +264,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/kotlin.svg"}
                   width={100}
                   height={100}
@@ -260,6 +272,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/graphql.svg"}
                   width={100}
                   height={100}
@@ -267,6 +280,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/tailwind.svg"}
                   width={100}
                   height={100}
@@ -274,6 +288,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/sass.svg"}
                   width={100}
                   height={100}
@@ -281,6 +296,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/three.svg"}
                   width={100}
                   height={100}
@@ -289,6 +305,7 @@ const TechStacks = () => {
                 />
 
                 <Image
+                  loading="lazy"
                   src={"/angular.svg"}
                   width={100}
                   height={100}
@@ -296,6 +313,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/vue.svg"}
                   width={100}
                   height={100}
@@ -303,6 +321,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/flutter.svg"}
                   width={100}
                   height={100}
@@ -310,6 +329,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/android.svg"}
                   width={100}
                   height={100}
@@ -321,6 +341,7 @@ const TechStacks = () => {
             {currentStack === "Backend" && (
               <div className="h-fit grid md:grid-cols-4 grid-cols-3 gap-10 place-items-center  w-[70%] my-10">
                 <Image
+                  loading="lazy"
                   src={"/node.svg"}
                   width={100}
                   height={100}
@@ -328,6 +349,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/express.svg"}
                   width={100}
                   height={100}
@@ -335,6 +357,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/nest.svg"}
                   width={100}
                   height={100}
@@ -342,6 +365,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/javascript.svg"}
                   width={100}
                   height={100}
@@ -349,6 +373,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/typescript.svg"}
                   width={100}
                   height={100}
@@ -356,6 +381,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/python.svg"}
                   width={100}
                   height={100}
@@ -363,6 +389,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/flask.svg"}
                   width={100}
                   height={100}
@@ -370,6 +397,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/django.svg"}
                   width={100}
                   height={100}
@@ -377,6 +405,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/rust.svg"}
                   width={100}
                   height={100}
@@ -384,6 +413,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/solidity.svg"}
                   width={1000}
                   height={1000}
@@ -391,6 +421,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/bitcoin.svg"}
                   width={100}
                   height={100}
@@ -398,6 +429,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/ethereum.svg"}
                   width={100}
                   height={100}
@@ -405,6 +437,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/laravel.svg"}
                   width={100}
                   height={100}
@@ -416,6 +449,7 @@ const TechStacks = () => {
             {currentStack === "Database" && (
               <div className="h-fit grid md:grid-cols-4 grid-cols-3 gap-10 place-items-center justify-center items-center w-[70%] my-10">
                 <Image
+                  loading="lazy"
                   src={"/mongo.svg"}
                   width={100}
                   height={100}
@@ -423,6 +457,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/maria.svg"}
                   width={100}
                   height={100}
@@ -430,6 +465,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/postgres.svg"}
                   width={100}
                   height={100}
@@ -437,6 +473,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/oracle.svg"}
                   width={100}
                   height={100}
@@ -444,6 +481,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/dynamodb.svg"}
                   width={100}
                   height={100}
@@ -451,6 +489,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/cockroach.svg"}
                   width={100}
                   height={100}
@@ -458,6 +497,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/redis.svg"}
                   width={1000}
                   height={1000}
@@ -465,6 +505,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/elasticsearch.svg"}
                   width={100}
                   height={100}
@@ -472,6 +513,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/cassandra.svg"}
                   width={100}
                   height={100}
@@ -479,6 +521,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/sqlite.svg"}
                   width={100}
                   height={100}
@@ -490,6 +533,7 @@ const TechStacks = () => {
             {currentStack === "CMS" && (
               <div className="h-fit grid md:grid-cols-4 grid-cols-3 gap-10 place-items-center justify-center items-center w-[70%] my-10">
                 <Image
+                  loading="lazy"
                   src={"/strapi.svg"}
                   width={100}
                   height={100}
@@ -497,6 +541,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/sanity.svg"}
                   width={100}
                   height={100}
@@ -504,6 +549,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/wordpress.svg"}
                   width={100}
                   height={100}
@@ -511,6 +557,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/drupal.svg"}
                   width={100}
                   height={100}
@@ -518,6 +565,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/joomla.svg"}
                   width={100}
                   height={100}
@@ -525,6 +573,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/squarespace.svg"}
                   width={1000}
                   height={1000}
@@ -536,6 +585,7 @@ const TechStacks = () => {
             {currentStack === "Cloud" && (
               <div className="h-fit grid md:grid-cols-4 grid-cols-3 gap-10 place-items-center justify-center items-center w-[70%] my-10">
                 <Image
+                  loading="lazy"
                   src={"/aws.svg"}
                   width={100}
                   height={100}
@@ -543,6 +593,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/gcp.svg"}
                   width={100}
                   height={100}
@@ -550,6 +601,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/azure.svg"}
                   width={100}
                   height={100}
@@ -557,6 +609,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/digitalocean.svg"}
                   width={100}
                   height={100}
@@ -564,6 +617,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/salesforce.svg"}
                   width={100}
                   height={100}
@@ -571,6 +625,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/vercel.svg"}
                   width={1000}
                   height={1000}
@@ -578,6 +633,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/netlify.svg"}
                   width={100}
                   height={100}
@@ -585,6 +641,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/ibm.svg"}
                   width={100}
                   height={100}
@@ -596,6 +653,7 @@ const TechStacks = () => {
             {currentStack === "DevOps" && (
               <div className="h-fit grid md:grid-cols-4 grid-cols-3 gap-10 place-items-center justify-center items-center w-[70%] my-10">
                 <Image
+                  loading="lazy"
                   src={"/docker.svg"}
                   width={100}
                   height={100}
@@ -603,6 +661,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/ansible.svg"}
                   width={100}
                   height={100}
@@ -610,6 +669,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/jenkins.svg"}
                   width={100}
                   height={100}
@@ -617,6 +677,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/linux.svg"}
                   width={100}
                   height={100}
@@ -624,6 +685,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/kubernetes.svg"}
                   width={100}
                   height={100}
@@ -631,6 +693,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/maven.svg"}
                   width={1000}
                   height={1000}
@@ -638,6 +701,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/gradle.svg"}
                   width={100}
                   height={100}
@@ -645,6 +709,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/chef.svg"}
                   width={100}
                   height={100}
@@ -652,6 +717,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/terraform.svg"}
                   width={100}
                   height={100}
@@ -659,6 +725,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/selenium.svg"}
                   width={100}
                   height={100}
@@ -666,6 +733,7 @@ const TechStacks = () => {
                   alt=""
                 />
                 <Image
+                  loading="lazy"
                   src={"/prometheus.svg"}
                   width={100}
                   height={100}
