@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Card from "./Card";
 const CaseStudy = () => {
   return (
     <div className="h-fit w-full space-y-10">
@@ -40,96 +41,30 @@ const CaseStudy = () => {
         </h1>
       </div>
       <div className="md:w-[80vw] w-[90vw] flex flex-col space-y-10 mx-auto">
-        <div className="grid md:grid-cols-2 grid-cols-1 bg-[#0B2447] rounded-xl">
-          <div className="">
-            <Image
-              src={"/case1.png"}
-              width={1000}
-              height={1000}
-              className="w-full h-full"
-              alt=""
-            />
-          </div>
-          <div className="flex flex-col p-16 space-y-10">
-            <h1 className="font-[Inter] font-semibold md:text-3xl text-xl text-[#A5D7E8]">
-              Website Design for SCFC Canada
-            </h1>
-            <p className="text-[#cccccc] font-light text-sm md:text-base">
-              Born out of a vision, a single-minded objective that puts service
-              before anything else, Swift Clearance and Forwarding Corp. surging
-              forth to deliver the best services in the shipping and logistics
-              scenario. Its meteoric rise stems out of a solid foundation. The
-              management boasts of over 20 years of rich and varied experience
-              in the shipping and freight forwarding industry.
-            </p>
-            <Link
-              href={"/"}
-              className="bg-clip-text text-transparent bg-gradient-to-tr from-[#46C2CB] text-sm md:text-base to-[#E7F6F2]"
-            >
-              Read More &gt;
-            </Link>
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 grid-cols-1 bg-[#37306B] rounded-xl">
-          <div className="">
-            <Image
-              src={"/case2.png"}
-              width={1000}
-              height={1000}
-              className="w-full h-full"
-              alt=""
-            />
-          </div>
-          <div className="flex flex-col p-16 space-y-10">
-            <h1 className="font-[Inter] font-semibold md:text-3xl text-xl text-[#A5D7E8]">
-              Website Design for SCFC Canada
-            </h1>
-            <p className="text-[#cccccc] font-light text-sm md:text-base">
-              Born out of a vision, a single-minded objective that puts service
-              before anything else, Swift Clearance and Forwarding Corp. surging
-              forth to deliver the best services in the shipping and logistics
-              scenario. Its meteoric rise stems out of a solid foundation. The
-              management boasts of over 20 years of rich and varied experience
-              in the shipping and freight forwarding industry.
-            </p>
-            <Link
-              href={"/"}
-              className="bg-clip-text text-transparent bg-gradient-to-tr from-[#46C2CB] text-sm md:text-base to-[#E7F6F2]"
-            >
-              Read More &gt;
-            </Link>
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 grid-cols-1 bg-[#13005A] rounded-xl">
-          <div className="">
-            <Image
-              src={"/case3.png"}
-              width={1000}
-              height={1000}
-              className="w-full h-full"
-              alt=""
-            />
-          </div>
-          <div className="flex flex-col p-16 space-y-10">
-            <h1 className="font-[Inter] font-semibold md:text-3xl text-xl text-[#A5D7E8]">
-              Website Design for SCFC Canada
-            </h1>
-            <p className="text-[#cccccc] font-light text-sm md:text-base">
-              Born out of a vision, a single-minded objective that puts service
-              before anything else, Swift Clearance and Forwarding Corp. surging
-              forth to deliver the best services in the shipping and logistics
-              scenario. Its meteoric rise stems out of a solid foundation. The
-              management boasts of over 20 years of rich and varied experience
-              in the shipping and freight forwarding industry.
-            </p>
-            <Link
-              href={"/"}
-              className="bg-clip-text text-transparent bg-gradient-to-tr from-[#46C2CB] text-sm md:text-base to-[#E7F6F2]"
-            >
-              Read More &gt;
-            </Link>
-          </div>
-        </div>
+        <Card
+          title={"Website Design for SCFC Canada"}
+          description={
+            "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry."
+          }
+          image={"/case1.png"}
+          background={"#0B2447"}
+        />
+        <Card
+          title={"Website Design for SCFC Canada"}
+          description={
+            "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry."
+          }
+          image={"/case2.png"}
+          background={"#37306B"}
+        />
+        <Card
+          title={"Website Design for SCFC Canada"}
+          description={
+            "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry."
+          }
+          image={"/case3.png"}
+          background={"#13005A"}
+        />
         <Link
           href={"/"}
           className="bg-clip-text self-end text-transparent bg-gradient-to-tr from-[#46C2CB] to-[#E7F6F2]"

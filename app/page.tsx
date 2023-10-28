@@ -12,6 +12,7 @@ import Services from "@/components/Services/Services";
 import Description from "@/components/Description/Description";
 import Timeline from "@/components/Timeline/Timeline";
 import Companies from "@/components/Companies/Companies";
+import Testimonials from "@/components/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Services />
       <About />
       <Companies />
+      <Testimonials />
       <CaseStudy />
       <Description />
       <Approach />
