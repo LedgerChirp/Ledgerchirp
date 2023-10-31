@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Card from "./Card";
 const Testimonials = () => {
   return (
     <div className="flex flex-col ">
@@ -16,6 +17,7 @@ const Testimonials = () => {
           <span className="font-semibold block">Working with Us</span>
         </h1>
       </div>
+      <Card />
     </div>
   );
 };

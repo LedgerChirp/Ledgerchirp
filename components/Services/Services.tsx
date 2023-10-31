@@ -116,8 +116,8 @@ const Services = () => {
             // modifierClass: "pagination",
           }}
           loop={true}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
+          // navigation={true}
+          modules={[Autoplay, Pagination]}
           className="mySwiper md:h-fit overflow-hidden"
         >
           {slideData &&

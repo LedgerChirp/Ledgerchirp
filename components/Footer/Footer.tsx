@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center md:space-x-8 space-y-10 md:items-start md:justify-start w-[90vw] mx-auto md:flex-row">
+      <div className="flex flex-col justify-between items-center md:space-x-8 space-y-10 md:items-start md:justify-between w-[90vw] mx-auto md:flex-row">
         <div className="flex flex-col space-y-5">
           <div className="flex justify-start items-center">
             <Image
@@ -23,16 +23,30 @@ const Footer = () => {
           </p>
           <p>Rated ⭐⭐⭐⭐⭐ by our beloved customers</p>
         </div>
-        <div className="flex flex-col justify-start">
+        <div className="flex flex-col justify-start items-start">
           <h1 className="font-semibold">Quick Links</h1>
           <ul className="font-extralight space-y-1 my-1">
-            <li>About</li>
-            <li>Services</li>
-            <li>Case-Studies</li>
-            <li>Blogs</li>
-            <li>How It Works</li>
-            <li>Hire</li>
-            <li>Areas we Serve</li>
+            <li>
+              <Link href={"#About"}>About</Link>
+            </li>
+            <li>
+              <Link href={"#Services"}>Services</Link>
+            </li>
+            <li>
+              <Link href={"#Case"}>Case-Studies</Link>
+            </li>
+            <li>
+              <Link href={"#Blog"}>Blogs</Link>
+            </li>
+            <li>
+              <Link href={"#Working"}>How It Works</Link>
+            </li>
+            <li>
+              <Link href={"#Hire"}>Hire</Link>
+            </li>
+            <li>
+              <Link href={"#Services"}>Areas we Serve</Link>
+            </li>
           </ul>
         </div>
         <div className="flex flex-col justify-center h-full space-y-20">
@@ -44,7 +58,7 @@ const Footer = () => {
             </p>
             <p>+91 88151 69093</p>
           </div>
-          <div className="flex space-x-5 ">
+          <div className="flex space-x-5">
             <Link
               href={"/"}
               className="md:w-12 md:h-12 w-10 h-10 flex justify-center items-center rounded-full bg-gradient-to-tr from-slate-700 to-slate-900 shadow-lg"

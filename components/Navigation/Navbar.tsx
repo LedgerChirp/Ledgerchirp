@@ -12,19 +12,19 @@ const Links = [
   },
   {
     name: "Case Studies",
-    link: "#case",
+    link: "#Case",
   },
   {
     name: "Blogs",
-    link: "#blog",
+    link: "#Blog",
   },
   {
     name: "How it Works",
-    link: "#working",
+    link: "#Working",
   },
   {
     name: "Hire",
-    link: "#hire",
+    link: "#Hire",
   },
 ];
 const Navbar = () => {
