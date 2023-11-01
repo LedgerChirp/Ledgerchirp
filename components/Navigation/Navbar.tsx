@@ -1,6 +1,8 @@
+import { createContext } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Drawer from "./Drawer";
+// import { motion } from "framer-motion";
 const Links = [
   {
     name: "About",
@@ -27,9 +29,30 @@ const Links = [
     link: "#Hire",
   },
 ];
+
+const containerVariants = {
+  hidden: {
+    x: "100vw",
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      type: "spring",
+      delay: 0.5,
+    },
+  },
+};
+
 const Navbar = () => {
   return (
-    <nav className="w-full backdrop-blur-xl z-50 fixed h-20 flex justify-between px-5 items-center ">
+    <nav
+      // variants={containerVariants}
+      // initial="hidden"
+      // animate="visible"
+      className="w-full backdrop-blur-xl z-50 fixed h-20 flex justify-between px-5 items-center"
+    >
       <Link href={"/"} className="flex justify-center items-center">
         <Image
           src={"/logo.png"}

@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Card from "./Card";
+import TestCarousel from "./TestCarousel";
 const Testimonials = () => {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col h-screen ">
       <div className="flex flex-col justify-center items-center w-full">
         <Image
           src={"/deco-line.svg"}
@@ -17,7 +18,8 @@ const Testimonials = () => {
           <span className="font-semibold block">Working with Us</span>
         </h1>
       </div>
-      <Card />
+      {/* <Card /> */}
+      <TestCarousel />
     </div>
   );
 };
