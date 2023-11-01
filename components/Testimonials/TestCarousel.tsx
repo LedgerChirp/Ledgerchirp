@@ -174,7 +174,7 @@ export default function TestCarousel() {
 
   return (
     <>
-      <div className="hidden lg:flex">
+      <div className="hidden lg:flex xl:my-40 lg:my-16">
         <Swiper
           effect="coverflow"
           grabCursor={true}
@@ -217,7 +217,7 @@ export default function TestCarousel() {
               className={` ${
                 index !== activeIndex2
                   ? ""
-                  : "rounded-[6px]  p-[14px] bg-right-bottom bg-fixed bg-no-repeat h-[50vh]"
+                  : "rounded-[6px] p-[14px] bg-right-bottom bg-fixed bg-no-repeat h-[50vh]"
               }`}
               style={{
                 backgroundColor: `${index === activeIndex2 ? "" : ""}`,
@@ -229,14 +229,17 @@ export default function TestCarousel() {
                   src={slide}
                   width={100}
                   height={100}
-                  className={` w-40 h-40 mx-auto ${
+                  className={` w-20 h-20 mx-auto ${
                     index === activeIndex2 && "rounded-full"
                   }`}
                 />
                 <div className="flex flex-col justify-center items-center">
                   {data.map((value, id) => {
                     return (
-                      <div key={id} className="flex flex-col justify-center items-center">
+                      <div
+                        key={id}
+                        className="flex flex-col justify-center items-center"
+                      >
                         <p className="flex">{value.rating}</p>
                         <p className="flex">{value.name}</p>
                         <p className="flex">{value.position}</p>
@@ -246,10 +249,10 @@ export default function TestCarousel() {
                 </div>
               </div>
               {index == activeIndex2 && (
-                <div className="text-center mt-[2rem] flex flex-row justify-center  items-center">
+                <div className="text-center xl:my-[8rem] lg:my-20 flex flex-row justify-center items-center">
                   <div className="flex flex-col gap-[2rem]">
-                    <p className="text-[#C3C5C4] text-[14px] font-[400]">
-                      {data[activeIndex2].content}
+                    <p className="text-[#718096] w-[60rem] text-[20px] font-[400]">
+                      &ldquo; {data[activeIndex2].content} &rdquo;
                     </p>
                   </div>
                 </div>
@@ -263,21 +266,21 @@ export default function TestCarousel() {
           <div className="absolute left-40 z-40 flex justify-between w-[80vw]">
             <div
               onClick={handlePrev2}
-              className="justify-start flex flex-col border-[1px] rounded-full p-[0.4rem] cursor-pointer "
+              className="justify-start flex flex-col border-[1px] border-[#57007B] rounded-full p-[0.4rem] cursor-pointer "
             >
-              <IoIosArrowBack size={30} className=" " />
+              <IoIosArrowBack size={30} className="text-[#57007B]" />
             </div>
             <div
               onClick={handleNext2}
-              className="justify-center flex flex-col border-[1px] cursor-pointer rounded-full p-[0.4rem] "
+              className="justify-center flex flex-col border-[1px] border-[#57007B] cursor-pointer rounded-full p-[0.4rem] "
             >
-              <IoIosArrowForward size={30} className=" " />
+              <IoIosArrowForward size={30} className="text-[#57007B]" />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="flex bg-[#000] sm:hidden overflow-hidden pb-20">
+      <div className="flex sm:hidden overflow-hidden">
         <Swiper
           effect="coverflow"
           grabCursor={true}
@@ -314,12 +317,12 @@ export default function TestCarousel() {
               className={` ${
                 index !== activeIndex
                   ? ""
-                  : "rounded-[6px] border-[1px] border-[#7F8B83] p-[14px] bg-[#184534] bg-[url('/carousalgradient.svg')] bg-right-bottom bg-fixed bg-no-repeat h-[50vh]"
+                  : "rounded-[6px] p-[10px] bg-right-bottom bg-fixed bg-no-repeat"
               }`}
               style={{
-                backgroundColor: `${index === activeIndex ? "#184534" : ""}`,
+                backgroundColor: `${index === activeIndex ? "" : ""}`,
                 height: "85vh",
-                paddingBottom: "2rem",
+                // paddingBottom: "2rem",
               }}
             >
               <Image
@@ -327,27 +330,30 @@ export default function TestCarousel() {
                 width={100}
                 height={100}
                 src={slide}
-                className={` w-full sm:h-auto h-[56%] ${
+                className={`mx-auto sm:h-auto h-40 w-40 ${
                   index === activeIndex && "rounded-lg"
                 }`}
               />
+              <div className="flex flex-col justify-center items-center">
+                {data.map((value, id) => {
+                  return (
+                    <div
+                      key={id}
+                      className="flex flex-col justify-center items-center"
+                    >
+                      <p className="flex">{value.rating}</p>
+                      <p className="flex">{value.name}</p>
+                      <p className="flex">{value.position}</p>
+                    </div>
+                  );
+                })}
+              </div>
               {index == activeIndex && (
-                <div className="text-center mt-[2rem] flex flex-row justify-center  items-center">
+                <div className="text-center mt-[4rem] flex flex-row justify-center  items-center">
                   <div className="flex flex-col gap-[2rem]">
-                    <p className="text-[#81EBAA] text-[20px] font-[700]">
-                      {data[activeIndex].heading}
-                    </p>
-                    <p className="text-[#C3C5C4] text-[14px] font-[400]">
+                    <p className="text-[#C3C5C4] text-[16px] font-[400]">
                       {data[activeIndex].content}
                     </p>
-                    <div
-                      className="underline underline-offset-4 text-white"
-                      onClick={() =>
-                        window.open(data[activeIndex].link, "_blank")
-                      }
-                    >
-                      Read More
-                    </div>
                   </div>
                 </div>
               )}
@@ -356,7 +362,7 @@ export default function TestCarousel() {
 
           {/*  */}
         </Swiper>
-        <div className="relative right-[75%] top-[95vh]">
+        <div className="relative right-[75%] top-[30rem] ">
           <div className="absolute z-40 flex justify-between w-[50vw]">
             <div
               onClick={handlePrev}
