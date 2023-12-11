@@ -13,7 +13,7 @@ const Description = () => {
           className="w-20 h-20"
           alt="deco-line"
         />
-        <h1 className="font-extralight text-center md:text-5xl text-3xl leading-normal">
+        <h1 className="font-extralight text-center md:text-5xl text-3xl leading-normal text-white">
           Way of Building{" "}
           <span className="block font-semibold">Great Software</span>
         </h1>

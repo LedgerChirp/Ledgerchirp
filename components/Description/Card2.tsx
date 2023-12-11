@@ -48,9 +48,9 @@ const Card1 = ({
         />
       </div>
       <div className="flex flex-col space-y-10">
-        <h1 className="font-bold md:text-4xl text-2xl">{title}</h1>
-        <p className="font-base">{description}</p>
-        <p>{oneliner}</p>
+        <h1 className="font-bold md:text-4xl text-2xl text-white">{title}</h1>
+        <p className="font-base text-white">{description}</p>
+        <p className="text-white">{oneliner}</p>
         <div className="flex space-x-5">
           <Image
             src={"/horizontalline.svg"}
@@ -71,7 +71,7 @@ const Card1 = ({
             className="w-12 h-12 rounded-full"
             alt=""
           />
-          <div className="flex flex-col ">
+          <div className="flex flex-col text-white">
             <p className="">{name}</p>
             <p className="font-extralight">{position}</p>
           </div>

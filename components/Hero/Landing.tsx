@@ -7,8 +7,8 @@ const Landing = () => {
       className="md:h-screen h-fit z-0 py-20 lg:py-0 grid md:grid-cols-2 lg:gap-16 grid-cols-1 w-[80%] items-center mx-auto"
     >
       <div className=" space-y-12 flex justify-center items-center md:items-start flex-col md:mt-0 mt-16">
-        <h1 className="md:text-6xl text-3xl md:leading-tight text-center  md:text-left">
-          <span className="font-extralight">
+        <h1 className="md:text-6xl text-3xl md:leading-tight text-center md:text-left">
+          <span className="font-extralight text-white">
             Great{" "}
             <span className="bg-gradient-to-b text-transparent bg-clip-text from-[#DE4396] to-blue-200 font-bold">
               Products
@@ -16,7 +16,7 @@ const Landing = () => {
             are
           </span>
           <br />
-          <span className="font-bold">
+          <span className="font-bold text-white">
             Built By Great{" "}
             <span className="bg-gradient-to-bl text-transparent bg-clip-text from-[#F7666F] to-[#406AFF]">
               Teams

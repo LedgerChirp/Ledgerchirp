@@ -53,8 +53,8 @@ const slideData = [
 
 const Services = () => {
   return (
-    <div className="relative w-full flex flex-col justify-evenly md:py-10 py-6 items-center bg-[#03001C] h-screen z-10">
-      <h1 className="font-semibold md:text-5xl text-3xl">Services we offer</h1>
+    <div className="relative w-full flex flex-col justify-evenly md:py-10 py-6 items-center bg-[#06081c] h-screen z-10">
+      <h1 className="font-semibold md:text-5xl text-3xl text-white">Services we offer</h1>
       <div className=" md:flex hidden overflow-hidden w-[99vw]">
         <Swiper
           slidesPerView={3.75}

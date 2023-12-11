@@ -61,7 +61,7 @@ const Navbar = () => {
           height={100}
           className="md:w-12 w-10"
         />
-        <h1>LedgerChirp</h1>
+        <h1 className="text-white">LedgerChirp</h1>
       </Link>
       <div className="lg:flex font-light justify-center items-center space-x-10 hidden">
         {Links &&
@@ -70,7 +70,7 @@ const Navbar = () => {
               <div key={id} className="group">
                 <Link href={value.link} className="hover:text-cyan-400">
                   {value.name}
-                  <div className="rounded-full w-1 h-1 group-hover:visible invisible  mx-auto bg-cyan-400" />
+                  <div className="rounded-full w-1 h-1 group-hover:visible invisible mx-auto bg-cyan-400" />
                 </Link>
               </div>
             );

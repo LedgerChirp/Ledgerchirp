@@ -20,9 +20,12 @@ const About = () => {
             className="w-20 h-10"
           />
           <div className="flex flex-col md:space-y-16 space-y-5">
-            <h1 className="font-extralight md:text-4xl text-xl leading-normal">
+            <h1 className="font-extralight md:text-4xl text-xl text-white leading-normal">
               Leading companies trust us{" "}
-              <span className="font-bold block"> to develop software </span>
+              <span className="font-bold block text-white">
+                {" "}
+                to develop software{" "}
+              </span>
             </h1>
             <p className="font-[Inter] font-extralight text-[#7f8fa7] md:w-3/4">
               We{" "}

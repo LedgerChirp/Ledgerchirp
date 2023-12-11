@@ -12,7 +12,7 @@ const Timeline = () => {
           className="w-20 h-20"
           alt="deco-line"
         />
-        <h1 className="font-extralight text-center md:text-5xl text-3xl leading-normal">
+        <h1 className="font-extralight text-center md:text-5xl text-3xl leading-normal text-white">
           How Development{" "}
           <span className="font-semibold block">through LedgerChirp works</span>
         </h1>

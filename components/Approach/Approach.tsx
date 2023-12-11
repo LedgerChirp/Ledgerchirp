@@ -64,7 +64,7 @@ const Approach = () => {
           height={100}
           alt="line"
         />
-        <h1 className="text-center font-extralight drop-shadow-xl md:text-5xl text-3xl leading-normal">
+        <h1 className="text-center font-extralight text-white drop-shadow-xl md:text-5xl text-3xl leading-normal">
           Our Design and{" "}
           <span className="block font-semibold">Developement Approach</span>
         </h1>

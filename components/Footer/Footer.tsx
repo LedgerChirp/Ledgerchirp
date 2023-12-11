@@ -15,17 +15,19 @@ const Footer = () => {
               className="w-10 h-10"
               alt="logo"
             />
-            <h1 className="font-bold">LedgerChirp</h1>
+            <h1 className="font-bold text-white">LedgerChirp</h1>
           </div>
-          <p className="font-[Inter] font-extralight">
+          <p className="font-[Inter] font-extralight text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Consequatur, dolor?
           </p>
-          <p>Rated ⭐⭐⭐⭐⭐ by our beloved customers</p>
+          <p className="text-white">
+            Rated ⭐⭐⭐⭐⭐ by our beloved customers
+          </p>
         </div>
         <div className="flex flex-col justify-start items-start">
-          <h1 className="font-semibold">Quick Links</h1>
-          <ul className="font-extralight space-y-1 my-1">
+          <h1 className="font-semibold text-white">Quick Links</h1>
+          <ul className="font-extralight space-y-1 my-1 text-white">
             <li>
               <Link href={"#About"}>About</Link>
             </li>
@@ -49,7 +51,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col justify-center h-full space-y-20">
+        <div className="flex flex-col justify-center h-full space-y-20 text-white">
           <div>
             <h1 className="font-semibold">Contact Us</h1>
             <p>

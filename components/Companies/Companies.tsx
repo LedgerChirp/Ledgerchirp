@@ -28,7 +28,7 @@ const Companies = () => {
           className="w-20 h-20"
           alt="deco-line"
         />
-        <h1 className="font-extralight text-start md:text-5xl text-3xl leading-normal">
+        <h1 className="font-extralight text-start md:text-5xl text-3xl text-white leading-normal">
           Meet the People{" "}
           <span className="font-semibold block">We are Working With</span>
         </h1>

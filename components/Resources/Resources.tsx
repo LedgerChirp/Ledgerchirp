@@ -66,7 +66,7 @@ const Resources = () => {
           height={100}
           alt="line"
         />
-        <h1 className="text-center font-extralight drop-shadow-xl md:text-5xl text-3xl leading-normal">
+        <h1 className="text-center font-extralight drop-shadow-xl md:text-5xl text-white text-3xl leading-normal">
           Featured <span className="block font-semibold">Resources</span>
         </h1>
       </div>
@@ -91,7 +91,7 @@ const Resources = () => {
                     height={100}
                     alt={value.image}
                   />
-                  <h1 className="mx-2">{value.title}</h1>
+                  <h1 className="mx-2 text-white">{value.title}</h1>
                   <Link href={value.link} className="text-[#57007B] self-end">
                     Read More →
                   </Link>

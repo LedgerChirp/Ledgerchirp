@@ -230,7 +230,7 @@ export default function TestCarousel() {
                   width={100}
                   height={100}
                   className={` w-20 h-20 mx-auto ${
-                    index === activeIndex2 && "rounded-full"
+                    index === activeIndex2 && "rounded-[4px]"
                   }`}
                 />
                 <div className="flex flex-col justify-center items-center">
@@ -238,7 +238,7 @@ export default function TestCarousel() {
                     return (
                       <div
                         key={id}
-                        className="flex flex-col justify-center items-center"
+                        className="flex flex-col justify-center items-center text-white"
                       >
                         <p className="flex">{value.rating}</p>
                         <p className="flex">{value.name}</p>
@@ -266,13 +266,13 @@ export default function TestCarousel() {
           <div className="absolute left-40 z-40 flex justify-between w-[80vw]">
             <div
               onClick={handlePrev2}
-              className="justify-start flex flex-col border-[1px] border-[#57007B] rounded-full p-[0.4rem] cursor-pointer "
+              className="justify-start flex flex-col border-[1px] border-[#57007B] rounded-[4px] p-[0.4rem] cursor-pointer "
             >
               <IoIosArrowBack size={30} className="text-[#57007B]" />
             </div>
             <div
               onClick={handleNext2}
-              className="justify-center flex flex-col border-[1px] border-[#57007B] cursor-pointer rounded-full p-[0.4rem] "
+              className="justify-center flex flex-col border-[1px] border-[#57007B] cursor-pointer rounded-[4px] p-[0.4rem] "
             >
               <IoIosArrowForward size={30} className="text-[#57007B]" />
             </div>
@@ -339,7 +339,7 @@ export default function TestCarousel() {
                   return (
                     <div
                       key={id}
-                      className="flex flex-col justify-center items-center"
+                      className="flex flex-col justify-center items-center text-white"
                     >
                       <p className="flex">{value.rating}</p>
                       <p className="flex">{value.name}</p>
@@ -366,13 +366,13 @@ export default function TestCarousel() {
           <div className="absolute z-40 flex justify-between w-[50vw]">
             <div
               onClick={handlePrev}
-              className="justify-center flex flex-col border-[1px] rounded-full p-[0.4rem] cursor-pointer border-[#46DE84]"
+              className="justify-center flex flex-col border-[1px] rounded-[4px] p-[0.4rem] cursor-pointer border-[#46DE84]"
             >
               <IoIosArrowBack size={20} className="text-[#46DE84] " />
             </div>
             <div
               onClick={handleNext}
-              className="justify-center flex flex-col border-[1px] cursor-pointer rounded-full p-[0.4rem] border-[#46DE84]"
+              className="justify-center flex flex-col border-[1px] cursor-pointer rounded-[4px] p-[0.4rem] border-[#46DE84]"
             >
               <IoIosArrowForward size={20} className="text-[#46DE84] " />
             </div>

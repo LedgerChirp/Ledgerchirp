@@ -36,7 +36,7 @@ const CaseStudy = () => {
           className="w-20 h-20"
           alt="deco-line"
         />
-        <h1 className="font-extralight text-center md:text-5xl text-3xl leading-normal">
+        <h1 className="font-extralight text-center text-white md:text-5xl text-3xl leading-normal">
           Our recent <span className="block font-semibold">Case Studies</span>
         </h1>
       </div>

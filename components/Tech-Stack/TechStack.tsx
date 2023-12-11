@@ -12,7 +12,7 @@ const TechStack = () => {
           className="w-20 h-20"
           alt="deco-line"
         />
-        <h1 className="font-extralight text-center md:text-5xl text-3xl leading-normal">
+        <h1 className="font-extralight text-center md:text-5xl text-white text-3xl leading-normal">
           Our <span className="font-semibold block">Tech Stack</span>
         </h1>
       </div>

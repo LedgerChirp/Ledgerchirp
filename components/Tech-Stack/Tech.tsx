@@ -39,12 +39,12 @@ const TechStacks = () => {
     setCurrentStack(stack);
   };
   return (
-    <div className="  my-10">
+    <div className="my-10">
       <div className="flex justify-center items-center">
         <select
           value={selectedOption}
           onChange={handleOptionChange}
-          className="md:hidden flex rounded-md bg-slate-900 outline-none p-2 drop-shadow-md"
+          className="md:hidden flex rounded-md text-white bg-slate-900 outline-none p-2 drop-shadow-md"
         >
           <option value="Frontend">Frontend</option>
           <option value="Backend">Backend</option>
