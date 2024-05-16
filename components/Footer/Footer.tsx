@@ -18,12 +18,9 @@ const Footer = () => {
             <h1 className="font-bold text-white">LedgerChirp</h1>
           </div>
           <p className="font-[Inter] font-extralight text-white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consequatur, dolor?
+            Make your software dream come true!
           </p>
-          <p className="text-white">
-            Rated ⭐⭐⭐⭐⭐ by our beloved customers
-          </p>
+          <p className="text-white">Rated ⭐⭐⭐⭐ by our beloved customers</p>
         </div>
         <div className="flex flex-col justify-start items-start">
           <h1 className="font-semibold text-white">Quick Links</h1>
@@ -38,7 +35,7 @@ const Footer = () => {
               <Link href={"#Case"}>Case-Studies</Link>
             </li>
             <li>
-              <Link href={"#Blog"}>Blogs</Link>
+              <Link href={"#tech-stack"}>Tech-Stack</Link>
             </li>
             <li>
               <Link href={"#Working"}>How It Works</Link>
@@ -54,11 +51,9 @@ const Footer = () => {
         <div className="flex flex-col justify-center h-full space-y-20 text-white">
           <div>
             <h1 className="font-semibold">Contact Us</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab,
-              illum?
-            </p>
-            <p>+91 88151 69093</p>
+            <p>Mohit Aasirwal +91 88151 69093</p>
+            <p>Mustafa Azad +91 82699 52318</p>
+            <p>Kanishk Tiwari +91 83492 74074</p>
           </div>
           <div className="flex space-x-5">
             <Link
@@ -110,7 +105,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-[#CBD5E0] flex items-center justify-center p-2 mt-5 text-center text-gray-500">
-        © 2023 Copyright by LedgerChirp INC. All rights reserved.
+        © 2024 Copyright by LedgerChirp INC. All rights reserved.
       </div>
     </>
   );

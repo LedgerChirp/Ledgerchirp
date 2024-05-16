@@ -40,7 +40,7 @@ const slideData = [
   {
     title: "Web Design and Development",
     description:
-      "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      "Astro revolutionizes web development by seamlessly combining static site generation and server rendering, offering unparalleled speed and simplicity.",
     image: "/astro.svg",
   },
   {

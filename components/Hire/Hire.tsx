@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 const Hire = () => {
   return (
     <div
@@ -16,8 +17,8 @@ const Hire = () => {
         className="md:w-40 md:h-40 w-20 h-20 absolute md:right-[6rem] right-[7rem]"
         alt="glare"
       />
-      <button className="ml-[4.5rem] mt-6 md:ml-0 md:mt-0 bg-gradient-to-tr from-[#F16063] to-[#FFC656] rounded-lg text-xs md:text-base py-2 px-4 md:py-3 md:px-5">
-        Hire Top Developers!
+      <button className="ml-[4.5rem] mt-6 md:ml-0 md:mt-0 bg-gradient-to-tr from-[#F16063] to-[#FFC656] rounded-lg text-xs md:text-base py-2 px-4 md:py-3 md:px-5 z-50">
+        <Link href={"/contact"}>Hire Top Developers!</Link>
       </button>
     </div>
   );

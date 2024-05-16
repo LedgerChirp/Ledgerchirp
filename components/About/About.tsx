@@ -21,7 +21,7 @@ const About = () => {
           />
           <div className="flex flex-col md:space-y-16 space-y-5">
             <h1 className="font-extralight md:text-4xl text-xl text-white leading-normal">
-              Leading companies trust us{" "}
+              Our Clients trust us{" "}
               <span className="font-bold block text-white">
                 {" "}
                 to develop software{" "}
@@ -49,7 +49,7 @@ const About = () => {
             controls
             className="rounded-xl w-full h-full"
           />
-          <source src="" type="video/mp4" />
+          <source src="/video.mp4" type="video/mp4" />
         </div>
       </div>
     </div>
