@@ -17,8 +17,8 @@ const Links = [
     link: "#Case",
   },
   {
-    name: "Blogs",
-    link: "#Blog",
+    name: "Tech-Stack",
+    link: "#tech-stack",
   },
   {
     name: "How it Works",
@@ -77,7 +77,7 @@ const Navbar = () => {
           })}
       </div>
       <button className="bg-gradient-to-tr from-[#6675F7] to-[#57007B] lg:flex hidden px-3 py-2 rounded-lg drop-shadow-sm">
-        <Link href={"#contact"}>Contact Us</Link>
+        <Link href={"/contact"}>Contact Us</Link>
       </button>
       <div className="lg:hidden flex">
         <Drawer />

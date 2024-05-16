@@ -27,7 +27,7 @@ export default function Home() {
       <Description />
       <Approach />
       <TechStack />
-      <Timeline />
+      {/* <Timeline /> */}
       <Resources />
       <Hire />
       <Footer />

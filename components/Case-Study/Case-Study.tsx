@@ -4,7 +4,7 @@ import Link from "next/link";
 import Card from "./Card";
 const CaseStudy = () => {
   return (
-    <div className="h-fit w-full space-y-10">
+    <div className="h-fit w-full space-y-10" id="Case">
       <div className="relative flex">
         <Image
           src={"/arrowup.svg"}

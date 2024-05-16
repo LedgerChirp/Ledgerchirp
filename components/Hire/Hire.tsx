@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hire = () => {
   return (
     <div
-      id="hire"
+      id="Hire"
       className="w-[80%] h-[35vh] relative md:h-[50%] md:my-40 my-20 mx-auto bg-gradient-to-tl md:p-20 from-black to-gray-800 md:flex md:justify-between justify-center items-center rounded-2xl"
     >
       <h1 className="text-[#FAFAFA] text-center md:text-3xl font-bold py-10">

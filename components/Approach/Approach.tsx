@@ -55,7 +55,10 @@ const data = [
 
 const Approach = () => {
   return (
-    <div className="flex flex-col my-10 p-10 bg-gradient-to-t from-slate-800 to-gray-900">
+    <div
+      className="flex flex-col my-10 p-10 bg-gradient-to-t from-slate-800 to-gray-900"
+      id="Working"
+    >
       <div className="flex flex-col mb-20 justify-center items-center">
         <Image
           src={"/deco-line.svg"}

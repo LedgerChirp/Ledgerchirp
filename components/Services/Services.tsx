@@ -10,31 +10,31 @@ const slideData = [
   {
     title: "Web Design and Development",
     description:
-      "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      "React is a powerful JavaScript library for building interactive user interfaces, renowned for its efficiency and flexibility in crafting modern web applications.",
     image: "/react.svg",
   },
   {
     title: "Web Design and Development",
     description:
-      "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      "Svelte is a revolutionary JavaScript framework that shifts the work of rendering from the browser to the build step, resulting in faster, leaner applications with minimal overhead.",
     image: "/svelte.svg",
   },
   {
     title: "Web Design and Development",
     description:
-      "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      "Next.js is a versatile React framework that enables server-side rendering, static site generation etc. empowering high-performance web applications with ease.",
     image: "/next.svg",
   },
   {
     title: "Web Design and Development",
     description:
-      "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      "TypeScript is a superset of JavaScript that adds static typing and other advanced features, enhancing code quality, maintainability, and scalability in large-scale projects.",
     image: "/typescript.svg",
   },
   {
     title: "Web Design and Development",
     description:
-      "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      "JavaScript is the backbone of modern web development, powering dynamic and interactive experiences across browsers, servers, and mobile devices with its versatility and ubiquity.",
     image: "/javascript.svg",
   },
   {
@@ -46,15 +46,20 @@ const slideData = [
   {
     title: "Web Design and Development",
     description:
-      "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      "Ethereum is a decentralized platform that enables the development of smart contracts and decentralized applications (DApps), leveraging blockchain technology for transactions.",
     image: "/ethereum.svg",
   },
 ];
 
 const Services = () => {
   return (
-    <div className="relative w-full flex flex-col justify-evenly md:py-10 py-6 items-center bg-[#06081c] h-screen z-10">
-      <h1 className="font-semibold md:text-5xl text-3xl text-white">Services we offer</h1>
+    <div
+      className="relative w-full flex flex-col justify-evenly md:py-10 py-6 items-center bg-[#06081c] h-screen z-10"
+      id="Services"
+    >
+      <h1 className="font-semibold md:text-5xl text-3xl text-white">
+        Services we offer
+      </h1>
       <div className=" md:flex hidden overflow-hidden w-[99vw]">
         <Swiper
           slidesPerView={3.75}

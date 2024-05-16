@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Landing = () => {
   return (
@@ -24,11 +25,13 @@ const Landing = () => {
           </span>
         </h1>
         <p className="text-[#4A5568] font-[Inter] md:text-lg text-sm text-justify">
-          We help build and manage a team of world-class developers to bring
-          your vision to life
+          We specialize in web development, application development, blockchain
+          development, and cybersecurity. Our expert team delivers cutting-edge
+          solutions tailored to your business needs, ensuring you stay ahead in
+          the digital landscape.
         </p>
         <button className="drop-shadow-sm w-fit bg-[#3D63EA] md:px-5 md:py-3 text-sm md:text-base py-2 px-3 rounded-md font-semibold text-[#FAFAFA]">
-          Let&apos;s Get Started!
+          <Link href={"/contact"}>Let&apos;s Get Started!</Link>
         </button>
         <Image
           src={"/ellipse.svg"}

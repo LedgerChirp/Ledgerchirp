@@ -3,7 +3,7 @@ import Image from "next/image";
 import Tech from "./Tech";
 const TechStack = () => {
   return (
-    <div>
+    <div id="tech-stack">
       <div className="flex flex-col justify-center items-center w-full">
         <Image
           src={"/deco-line.svg"}
